@@ -34,7 +34,7 @@ read -r -p "现在开始更新系统吗? [Y/n] " input
 case $input in
     [yY][eE][sS]|[yY])
 		echo "Yes"
-        pacstrap /mnt base linux linux-firmware base-devel vi vim networkmanager
+        pacstrap /mnt base linux linux-firmware base-devel vi vim networkmanager git
         echo "系统已经更新"
 		;;
 
@@ -75,6 +75,7 @@ case $input in
 		echo "Yes"
         arch-chroot /mnt
         echo "进入硬盘成功"
+	git clone
 		;;
 
     [nN][oO]|[nN])
