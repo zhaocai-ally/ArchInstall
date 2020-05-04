@@ -75,7 +75,7 @@ case $input in
 		echo "Yes"
         arch-chroot /mnt
         echo "进入硬盘成功"
-	git clone
+	git clone https://github.com/zhaocai-ally/ArchInstall.git
 		;;
 
     [nN][oO]|[nN])
