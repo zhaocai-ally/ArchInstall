@@ -24,7 +24,7 @@ archlinux安装脚本
 
 
 
-# chmod 777 install.sh
+# chmod 777 root_install.sh
 
 
 
@@ -47,7 +47,7 @@ archlinux安装脚本
 
 
 
-# chmod 777 install.sh
+# chmod 777 yinpan_install.sh
 
 
 
