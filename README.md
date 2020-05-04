@@ -1,6 +1,12 @@
 # ArchInstall
 archlinux安装脚本
+
+
+
 挂载好分区以后执行
+
+
+
 pacman -S git
 
 
