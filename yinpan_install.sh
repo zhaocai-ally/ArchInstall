@@ -59,6 +59,8 @@ case $input in
         cp ./hostname /etc/
         rm -rf /etc/hosts
         cp ./hosts /etc/
+	rm -rf /etc/pacman.conf
+	cp ./pacman.conf /etc/
         echo "本地设置完成 ben di she zhi wan cheng"
 		;;
 
