@@ -24,7 +24,7 @@ cd ArchInstall/
 
 
 
-chmod +x install.sh
+chmod 777 install.sh
 
 
 
