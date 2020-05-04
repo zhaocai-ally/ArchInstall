@@ -7,26 +7,54 @@ archlinux安装脚本
 
 
 
-pacman -Sy git
+# pacman -Sy git
 
 
 
 
-git clone https://github.com/zhaocai-ally/ArchInstall.git
-
-
-
-
-
-cd ArchInstall/
+# git clone https://github.com/zhaocai-ally/ArchInstall.git
 
 
 
 
 
-chmod 777 install.sh
+# cd ArchInstall/
 
 
 
 
-sh install.sh
+
+# chmod 777 install.sh
+
+
+
+
+# sh root_install.sh
+
+
+
+
+
+# git clone https://github.com/zhaocai-ally/ArchInstall.git
+
+
+
+
+
+# cd ArchInstall/
+
+
+
+
+
+# chmod 777 install.sh
+
+
+
+
+# sh yinpan_install.sh
+
+
+
+
+
