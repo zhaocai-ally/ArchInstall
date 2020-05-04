@@ -107,6 +107,7 @@ case $input in
         pacman-key --init
         pacman-key --populate archlinux
         pacman -Syy archlinuxcn-keyring
+	pacman-key --populate archlinuxcn
         echo "软件安装完毕 ruan jian an zhuang wan cheng"
 		;;
 
