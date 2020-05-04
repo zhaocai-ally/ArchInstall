@@ -18,6 +18,12 @@ git clone https://github.com/zhaocai-ally/ArchInstall.git
 
 
 
+cd ArchInstall/
+
+
+
+
+
 chmod +x install.sh
 
 
