@@ -76,6 +76,7 @@ case $input in
         arch-chroot /mnt
         echo "进入硬盘成功"
 	git clone https://github.com/zhaocai-ally/archlinuxinstall.git
+	chmod +x install.sh
 	sh ./install.sh
 		;;
 
