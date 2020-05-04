@@ -18,4 +18,9 @@ git clone https://github.com/zhaocai-ally/ArchInstall.git
 
 
 
-sh install.sh
+chmod +x install.sh
+
+
+
+
+bash install.sh
