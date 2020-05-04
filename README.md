@@ -7,7 +7,7 @@ archlinux安装脚本
 
 
 
-pacman -S git
+pacman -Sy git
 
 
 
@@ -29,4 +29,4 @@ chmod +x install.sh
 
 
 
-bash install.sh
+sh install.sh
