@@ -98,8 +98,8 @@ read -r -p "安装软件 an zhuang ruan jian ? [Y/n] " input
 case $input in
     [yY][eE][sS]|[yY])
 		echo "Yes"
-        pacman -S intel-ucode
-        pacman -S grub efibootmgr dosfstools ntfs-3g os-prober
+        pacman -Sy intel-ucode
+        pacman -Sy grub efibootmgr dosfstools ntfs-3g os-prober
         pacman -Syu haveged
         systemctl start haveged
         systemctl enable haveged
