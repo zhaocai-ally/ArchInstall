@@ -187,7 +187,7 @@ read -r -p "添加普通用户 tian jia pu tong yong hu? [Y/n] " input
 case $input in
     [yY][eE][sS]|[yY])
 		echo "Yes"
-        useradd -m -g users -G wheel -s /bin/bash zhaocai
+        useradd -m -g users -G wheel -s /bin/bash Arch
         echo "用户已添加 yong hu yi tian jia "
 		;;
 
@@ -226,7 +226,7 @@ read -r -p "设置普通用户密码 she zhi pu tong yong hu mi ma ? [Y/n] " inp
 case $input in
     [yY][eE][sS]|[yY])
 		echo "Yes"
-        passwd zhaocai
+        passwd Arch
         echo "密码设置成功 mi ma she zhi cheng gong"
 		;;
 
