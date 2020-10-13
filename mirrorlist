@@ -2,7 +2,8 @@
 ## Arch Linux repository mirrorlist
 ## Filtered by mirror score from mirror status page
 ## Generated on 2020-03-01
-##
+
+Server = https://mirrors.huaweicloud.com/archlinux/$repo/os/$arch
 ## China
 Server = http://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
 ## China
