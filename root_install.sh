@@ -15,7 +15,7 @@ echo ".....................................OK"
 genfstab -U -p /mnt >> /mnt/etc/fstab
 cat /mnt/etc/fstab
 echo ".....................................OK"
-cd..
+cd
 cp ArchInstall -rf /mnt
 arch-chroot /mnt
 
