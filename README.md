@@ -21,10 +21,6 @@ archlinux安装脚本
 # cd ArchInstall/
 
 
-给脚本添加执行权限
-
-
-# chmod 777 root_install.sh
 
 
 执行脚本命令
@@ -32,10 +28,9 @@ archlinux安装脚本
 # sh root_install.sh
 
 
-进入硬盘后再次下载脚本文件
+进入硬盘后再次执行脚本文件
 
 
-# git clone https://github.com/zhaocai-ally/ArchInstall.git
 
 
 切换到脚本目录
@@ -44,10 +39,7 @@ archlinux安装脚本
 # cd ArchInstall/
 
 
-添加脚本执行权限
 
-
-# chmod 777 yinpan_install.sh
 
 
 执行脚本文件
