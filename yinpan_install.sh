@@ -26,6 +26,7 @@ echo "qing shu ru mi ma 请输入密码并确认密码："
 echo ".....................................OK"
 
 pacman -Sy intel-ucode
+pacman -S amd-ucode
 pacman -Sy grub efibootmgr dosfstools ntfs-3g os-prober
 pacman -Syu haveged
 systemctl start haveged
@@ -58,4 +59,4 @@ systemctl enable NetworkManager
 echo ".....................................OK"
 systemctl start NetworkManager
 echo ".....................................OK"
-reboot
+
