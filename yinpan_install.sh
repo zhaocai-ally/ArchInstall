@@ -52,7 +52,7 @@ echo ".....................................OK"
 passwd arch
 echo "qing shu ru mi ma 请输入密码并确认密码："
 echo ".....................................OK"
-pacman -S alsa-utils pulseaudio pulseaudio-alsa yay google-chrom
+pacman -S alsa-utils pulseaudio pulseaudio-alsa yay google-chrome
 yay --aururl "https://aur.tuna.tsinghua.edu.cn" --save
 pacman -S plasma kde-applications plasma-wayland-session
 systemctl enable sddm
