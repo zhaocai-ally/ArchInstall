@@ -3,19 +3,21 @@
 127.0.0.1	localhost
 ::1		localhost
 127.0.1.1	Linux.localdomain	Linux
-192.30.253.112 github.com
-192.30.253.119 gist.github.com
-151.101.100.133 assets-cdn.github.com
-151.101.100.133 raw.githubusercontent.com
-151.101.100.133 gist.githubusercontent.com
-151.101.100.133 cloud.githubusercontent.com
-151.101.100.133 camo.githubusercontent.com
-151.101.100.133 avatars0.githubusercontent.com
-151.101.100.133 avatars1.githubusercontent.com
-151.101.100.133 avatars2.githubusercontent.com
-151.101.100.133 avatars3.githubusercontent.com
-151.101.100.133 avatars4.githubusercontent.com
-151.101.100.133 avatars5.githubusercontent.com
-151.101.100.133 avatars6.githubusercontent.com
-151.101.100.133 avatars7.githubusercontent.com
-151.101.100.133 avatars8.githubusercontent.com
+
+
+# github.com
+# gist.github.com
+# assets-cdn.github.com
+# raw.githubusercontent.com
+# gist.githubusercontent.com
+# cloud.githubusercontent.com
+# camo.githubusercontent.com
+# avatars0.githubusercontent.com
+# avatars1.githubusercontent.com
+# avatars2.githubusercontent.com
+# avatars3.githubusercontent.com
+# avatars4.githubusercontent.com
+# avatars5.githubusercontent.com
+# avatars6.githubusercontent.com
+# avatars7.githubusercontent.com
+# avatars8.githubusercontent.com
