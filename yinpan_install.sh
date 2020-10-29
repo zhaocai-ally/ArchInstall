@@ -43,6 +43,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 echo ".....................................OK"
 pacman -S xf86-video-vesa
 pacman -S xf86-video-intel
+
 pacman -S xorg
 pacman -S xf86-input-synaptics
 pacman -S ttf-dejavu wqy-microhei
