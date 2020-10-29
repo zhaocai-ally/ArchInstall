@@ -60,4 +60,18 @@ systemctl enable NetworkManager
 echo ".....................................OK"
 systemctl start NetworkManager
 echo ".....................................OK"
+pacman -S fcitx
+pacman -S fcitx-configtool
+pacman -S fcitx-gtk2 fcitx-gtk3 fcitx-qt5
+pacman -S fcitx-sogoupinyin
 
+echo "export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx" > ~/.xprofile
+echo "GTK_IM_MODULE DEFAULT=fcitx
+QT_IM_MODULE  DEFAULT=fcitx
+XMODIFIERS    DEFAULT=\@im=fcitx" > ~/.pam_environment
+echo "GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS="@im=fcitx"" > /etc/environment
+cp /etc/xdg/autostart/fcitx-autostart.desktop ~/.config/autostart/
