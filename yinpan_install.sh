@@ -62,8 +62,8 @@ systemctl start NetworkManager
 echo ".....................................OK"
 pacman -S fcitx
 pacman -S fcitx-configtool
-pacman -S fcitx-gtk2 fcitx-gtk3 fcitx-qt5
-pacman -S fcitx-sogoupinyin
+pacman -S fcitx-gtk2 fcitx-gtk3 fcitx-qt5 kcm-fcitx fcitx-im
+pacman -S fcitx-googlepinyin
 
 echo "export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
