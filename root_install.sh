@@ -6,7 +6,9 @@ echo -e "${y} / ___ \| | | (__| | | | | |___| | | | | |_| |>  <   ${h}"
 echo -e "${r}/_/   \_\_|  \___|_| |_| |_____|_|_| |_|\__,_/_/\_\  ${h}"
 
 
-
+rm -rf /etc/locale.gen
+cp ./locale.gen /etc/
+locale-gen
 rm -rf /etc/pacman.d/mirrorlist
 cp ./mirrorlist /etc/pacman.d/
 echo ".....................................OK"
