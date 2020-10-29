@@ -21,8 +21,9 @@ cp ./hosts /etc/
 rm -rf /etc/pacman.conf
 cp ./pacman.conf /etc/
 echo ".....................................OK"
-passwd
 echo "qing shu ru mi ma 请输入密码并确认密码："
+passwd
+
 echo ".....................................OK"
 
 pacman -Sy intel-ucode
@@ -66,13 +67,3 @@ pacman -S fcitx-configtool
 pacman -S fcitx-gtk2 fcitx-gtk3 fcitx-qt5 kcm-fcitx fcitx-im
 pacman -S fcitx-googlepinyin
 
-echo "export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS=@im=fcitx" > ~/.xprofile
-echo "GTK_IM_MODULE DEFAULT=fcitx
-QT_IM_MODULE  DEFAULT=fcitx
-XMODIFIERS    DEFAULT=\@im=fcitx" > ~/.pam_environment
-echo "GTK_IM_MODULE=fcitx
-QT_IM_MODULE=fcitx
-XMODIFIERS="@im=fcitx"" > /etc/environment
-cp /etc/xdg/autostart/fcitx-autostart.desktop ~/.config/autostart/
