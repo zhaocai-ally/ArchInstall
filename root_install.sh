@@ -5,11 +5,7 @@ echo -e "${b}  / _ \ | '__/ __| '_ \  | |   | | '_ \| | | \ \/ /  ${h}"
 echo -e "${y} / ___ \| | | (__| | | | | |___| | | | | |_| |>  <   ${h}"
 echo -e "${r}/_/   \_\_|  \___|_| |_| |_____|_|_| |_|\__,_/_/\_\  ${h}"
 
-pacman -Sy ttf-dejavu wqy-microhei
-rm -rf /etc/locale.gen
-cp ./locale.gen /etc/
-locale-gen
-echo "切换为国内源"
+
 rm -rf /etc/pacman.d/mirrorlist
 cp ./mirrorlist /etc/pacman.d/
 echo ".....................................OK"
