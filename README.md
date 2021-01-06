@@ -1,3 +1,5 @@
+本脚本已经转移到  https://gitee.com/zhaocaiall/ArchInstall
+
 # ArchInstall
 archlinux安装脚本
 
