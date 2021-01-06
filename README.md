@@ -1,5 +1,5 @@
-本脚本已经转移到  https://gitee.com/zhaocaiall/ArchInstall
-持续更新
+# 本脚本已经转移到  https://gitee.com/zhaocaiall/ArchInstall
+# 持续更新
 
 # ArchInstall
 archlinux安装脚本
