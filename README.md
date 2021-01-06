@@ -9,45 +9,29 @@ archlinux安装脚本
 挂载好分区以后执行
 
 
+###  **kde桌面环境脚本：** 
 
-# pacman -Sy git
-
-把脚本下载下来
-
-
-# git clone https://github.com/zhaocai-ally/ArchInstall.git
+ **curl -O https://gitee.com/zhaocaiall/ArchInstall/raw/master/kde.sh** 
 
 
-进入下载目录
+ **sh ./kde.sh** 
 
 
-# cd ArchInstall/
+###  **gnome桌面环境脚本：** 
+
+ **curl -O https://gitee.com/zhaocaiall/ArchInstall/raw/master/gnome.sh** 
 
 
+ **sh ./gnome.sh** 
 
 
-执行脚本命令
+###  **deepin桌面环境脚本：** 
 
-# sh root_install.sh
-
-
-进入硬盘后再次执行脚本文件
+ **curl -O https://gitee.com/zhaocaiall/ArchInstall/raw/master/deepin.sh** 
 
 
+ **sh ./deepin.sh** 
 
-
-切换到脚本目录
-
-
-# cd ArchInstall/
-
-
-
-
-
-执行脚本文件
-
-# sh yinpan_install.sh
 
 
 
