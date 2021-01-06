@@ -1,6 +1,6 @@
 # 本脚本已经转移到  https://gitee.com/zhaocaiall/ArchInstall
 # 持续更新
-
+# 参考视频  https://www.bilibili.com/video/BV14p4y1r7nQ/
 # ArchInstall
 archlinux安装脚本
 
